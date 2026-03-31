@@ -76,7 +76,7 @@
 			<version>1.0.12</version>
 		</dependency>
 
-        <dependency>
+		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-testng</artifactId>
 			<version>2.23.0</version>
@@ -114,16 +114,16 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-<!--						<suiteXmlFile>-->
-<!--							src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
-<!--					</suiteXmlFiles>-->
-					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/resources/testrunners/testng_regression.xml
+						</suiteXmlFile>
 					</suiteXmlFiles>
+					<!--<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
 				</configuration>
-				
+
 				<dependencies>
 					<dependency>
 						<groupId>org.aspectj</groupId>
@@ -131,7 +131,7 @@
 						<version>1.9.19</version>
 					</dependency>
 				</dependencies>
-				
+
 			</plugin>
 		</plugins>
 
