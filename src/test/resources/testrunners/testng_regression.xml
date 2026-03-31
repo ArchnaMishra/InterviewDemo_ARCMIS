@@ -15,7 +15,7 @@
 		<parameter name="browserversion" value="126.0" />
 		<parameter name="testname" value="Login Page Test" />
 		<classes>
-			<class name="testcom.qa.sauselaba.tests.LoginPageTest" />
+			 <class name="testcom.qa.sauselabs.tests.LoginPageTest" />
 		</classes>
 	</test>
 	<test name="Login Page Test_edge">
@@ -23,7 +23,7 @@
 		<parameter name="browserversion" value="126.0" />
 		<parameter name="testname" value="Login Page Test" />
 		<classes>
-			<class name="testcom.qa.sauselaba.tests.LoginPageTest" />
+			 <class name="testcom.qa.sauselabs.tests.LoginPageTest" />
 		</classes>
 	</test>
 
