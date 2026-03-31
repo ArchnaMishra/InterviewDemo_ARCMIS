@@ -75,7 +75,7 @@
 					<dependency>
 						<groupId>org.aspectj</groupId>
 						<artifactId>aspectjweaver</artifactId>
-						<version>1.9.25.1</version>
+						<version>${aspectj.version}</version>
 					</dependency>
 				</dependencies>
 				
