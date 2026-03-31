@@ -15,6 +15,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.release>17</maven.compiler.release>
+		<aspectj.version>1.9.19</aspectj.version>
 	</properties>
 
 
@@ -22,9 +23,9 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.28.1</version>
+			<version>4.31.0</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -32,17 +33,66 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.10</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>chaintest-testng</artifactId>
 			<version>1.0.12</version>
 		</dependency>
-		
+
+        <dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.23.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${aspectj.version}</version>
+		</dependency>
+
 	</dependencies>
-   
-   
-		
+
+
 	<build>
-         
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -64,7 +114,10 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>
+<!--						<suiteXmlFile>-->
+<!--							src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
+<!--					</suiteXmlFiles>-->
+					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
@@ -75,11 +128,12 @@
 					<dependency>
 						<groupId>org.aspectj</groupId>
 						<artifactId>aspectjweaver</artifactId>
-						<version>${aspectj.version}</version>
+						<version>1.9.19</version>
 					</dependency>
 				</dependencies>
 				
 			</plugin>
 		</plugins>
+
 	</build>
 </project>
