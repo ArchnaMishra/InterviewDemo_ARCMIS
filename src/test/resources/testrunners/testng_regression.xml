@@ -12,7 +12,7 @@
 	</listeners>
 	<test name="Login Page Test_chrome">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="126.0" />
+		<parameter name="browserversion" value="146.0" />
 		<parameter name="testname" value="Login Page Test" />
 		<classes>
 			 <class name="testcom.qa.sauselabs.tests.LoginPageTest" />
@@ -20,7 +20,7 @@
 	</test>
 	<test name="Login Page Test_edge">
 		<parameter name="browser" value="edge" />
-		<parameter name="browserversion" value="126.0" />
+		<parameter name="browserversion" value="146.0" />
 		<parameter name="testname" value="Login Page Test" />
 		<classes>
 			 <class name="testcom.qa.sauselabs.tests.LoginPageTest" />
