@@ -1,4 +1,4 @@
-package testcom.qa.opencart.utils;
+package testcom.qa.sauselabs.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

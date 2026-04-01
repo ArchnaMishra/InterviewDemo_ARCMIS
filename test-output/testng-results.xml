@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-29T07:07:28 IST" name="Default suite" finished-at="2026-03-29T07:07:42 IST" duration-ms="13453">
+  <suite started-at="2026-04-01T07:47:17 IST" name="Default suite" finished-at="2026-04-01T07:47:32 IST" duration-ms="15058">
     <groups>
     </groups>
-    <test started-at="2026-03-29T07:07:28 IST" name="Default test" finished-at="2026-03-29T07:07:42 IST" duration-ms="13453">
+    <test started-at="2026-04-01T07:47:17 IST" name="Default test" finished-at="2026-04-01T07:47:32 IST" duration-ms="15058">
       <class name="testcom.qa.sauselabs.tests.LoginPageTest">
-        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@47a5b70d]" started-at="2026-03-29T07:07:28 IST" name="verifyInvalidLogin" data-provider="testCredentials" finished-at="2026-03-29T07:07:33 IST" duration-ms="4281" status="PASS">
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@18539cb1]" started-at="2026-04-01T07:47:17 IST" name="verifyInvalidLogin" data-provider="testCredentials" finished-at="2026-04-01T07:47:22 IST" duration-ms="4623" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidLogin -->
-        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@47a5b70d]" started-at="2026-03-29T07:07:33 IST" name="verifyInvalidLogin" data-provider="testCredentials" finished-at="2026-03-29T07:07:37 IST" duration-ms="4365" status="PASS">
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@18539cb1]" started-at="2026-04-01T07:47:22 IST" name="verifyInvalidLogin" data-provider="testCredentials" finished-at="2026-04-01T07:47:26 IST" duration-ms="4566" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[no_passwrod]]>
+                <![CDATA[no_password]]>
               </value>
             </param>
             <param index="1">
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidLogin -->
-        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@47a5b70d]" started-at="2026-03-29T07:07:37 IST" name="verifyInvalidLogin" data-provider="testCredentials" finished-at="2026-03-29T07:07:42 IST" duration-ms="4419" status="PASS">
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@18539cb1]" started-at="2026-04-01T07:47:26 IST" name="verifyInvalidLogin" data-provider="testCredentials" finished-at="2026-04-01T07:47:31 IST" duration-ms="4522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,10 +55,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidLogin -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@47a5b70d]" started-at="2026-03-29T07:07:42 IST" name="verifyValidLogin" finished-at="2026-03-29T07:07:42 IST" duration-ms="341" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@18539cb1]" started-at="2026-04-01T07:47:31 IST" name="verifyValidLogin" finished-at="2026-04-01T07:47:32 IST" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcom.qa.sauselabs.tests.LoginPageTest@18539cb1]" started-at="2026-04-01T07:47:32 IST" name="TearDown" finished-at="2026-04-01T07:47:32 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
       </class> <!-- testcom.qa.sauselabs.tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

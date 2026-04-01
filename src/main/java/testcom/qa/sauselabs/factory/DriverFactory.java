@@ -18,8 +18,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import com.aventstack.chaintest.plugins.ChainTestListener;
-import com.qa.oopencart.exceptions.BrowserException;
-import com.qa.oopencart.exceptions.FrameworkExceptions;
+import testcom.qa.sauselabs.exceptions.BrowserException;
+import testcom.qa.sauselabs.exceptions.FrameworkExceptions;
 
 public class DriverFactory {
 

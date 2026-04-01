@@ -3,7 +3,7 @@ package testcom.qa.sauselabs.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import testcom.qa.opencart.utils.ElementUtil;
+import testcom.qa.sauselabs.utils.ElementUtil;
 
 public class LoginPage {
 	

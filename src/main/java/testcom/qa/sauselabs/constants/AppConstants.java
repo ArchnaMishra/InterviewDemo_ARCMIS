@@ -1,4 +1,4 @@
-package com.qa.opencart.constants;
+package testcom.qa.sauselabs.constants;
 
 import java.util.List;
 

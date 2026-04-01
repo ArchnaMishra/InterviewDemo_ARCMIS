@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.qa.opencart.constants.AppConstants;
+import testcom.qa.sauselabs.constants.AppConstants;
 
 import testcom.qa.sauselabs.base.BaseTest;
 

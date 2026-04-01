@@ -7,8 +7,11 @@ public class HomePage {
 	
 	WebDriver driver;
 	
-	private By drpDownSort= By.className("select.product_sort_container");
-	private By dropdwnSortList=By.className("select.product_sort_container option");
+	/*
+	 * private By drpDownSort= By.className("select.product_sort_container");
+	 * private By
+	 * dropdwnSortList=By.className("select.product_sort_container option");
+	 */
 	
 	public HomePage(WebDriver driver)
 	{

@@ -1,4 +1,4 @@
-package com.qa.oopencart.exceptions;
+package testcom.qa.sauselabs.exceptions;
 
 public class BrowserException extends RuntimeException{
 

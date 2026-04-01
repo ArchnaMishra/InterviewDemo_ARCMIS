@@ -3,6 +3,7 @@ package testcom.qa.sauselabs.base;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 
 import testcom.qa.sauselabs.factory.DriverFactory;
 import testcom.qa.sauselabs.pages.HomePage;
@@ -26,5 +27,12 @@ public class BaseTest {
 		loginPage=new LoginPage(driver);
 		homePage=new HomePage(driver);
 	}
+	
+	@AfterClass
+	public void TearDown()
+	{
+		driver.quit();
+	}
+	
 
 }
